@@ -1,0 +1,3 @@
+﻿  newton.cpp
+c:\users\arpit\documents\sc lab\newton forward interpolation\newton forward interpolation\newton.cpp(6): warning C4305: 'initializing': truncation from 'double' to 'f'
+  Newton Forward Interpolation.vcxproj -> C:\Users\Arpit\Documents\SC Lab\Newton Forward Interpolation\Debug\Newton Forward Interpolation.exe
