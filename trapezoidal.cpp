@@ -12,7 +12,6 @@ int main() {
         double temp = f(x);
         sum += temp;
         x += h;
-        cout << sum << " " << x << "\n";
     }
     sum *= 2;
     sum += (f(lower) + f(upper));
