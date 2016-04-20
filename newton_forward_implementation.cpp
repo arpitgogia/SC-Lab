@@ -18,8 +18,11 @@ void solve(float k) {
         prod *= (p - i);
     prod /= factorial(k);
     ans += prod;
-    for(int i = 0 ; i < (n - k - 1) ; i++) 
+    for(int i = 0 ; i < (n - k - 1) ; i++) {
         y[i] = y[i + 1] - y[i];
+        cout << y[i] << "\t";
+    }
+    cout << "\n";
     solve(k + 1);
 }
 int main() {
