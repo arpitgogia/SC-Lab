@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 double f(double y, double x) {
-	return ((pow(y, 2) - pow(x, 2)) / (pow(x, 2) - pow(y, 2)));
+	return ((pow(y, 2) - pow(x, 2)) / (pow(x, 2) + pow(y, 2)));
 }
 int main() {
 	double y0 = 1, x0 = 0, y1, n = 0.4, h = 0.2, fx, k1, k2, k3, k4;
